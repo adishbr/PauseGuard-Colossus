@@ -1,0 +1,105 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Noto Sans Kannada Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('@fontsource-variable/noto-sans-kannada/files/noto-sans-kannada-kannada-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0951-0952,U+0964-0965,U+0C80-0CF3,U+1CD0,U+1CD2-1CD3,U+1CDA,U+1CF2,U+1CF4,U+200C-200D,U+20B9,U+25CC,U+A830-A835;
+}
+
+@font-face {
+  font-family: 'Noto Sans Devanagari Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('@fontsource-variable/noto-sans-devanagari/files/noto-sans-devanagari-devanagari-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09;
+}
+
+@font-face {
+  font-family: 'Noto Sans Telugu Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('@fontsource-variable/noto-sans-telugu/files/noto-sans-telugu-telugu-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0951-0952,U+0964-0965,U+0C00-0C7F,U+1CDA,U+1CF2,U+200C-200D,U+25CC;
+}
+
+:root {
+  font-family: 'Noto Sans Kannada Variable', 'Noto Sans Devanagari Variable', 'Noto Sans Telugu Variable',
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: dark;
+  color: var(--ink);
+  background: var(--page);
+  font-synthesis: none;
+  --page: #0b0912;
+  --ink: #f6f4fc;
+  --muted: #c3bed3;
+  --muted-dark: #a39bb1;
+  --brand-accent: #e9e0ff;
+  --brand-accent-hover: #fffaff;
+  --brand-contrast: #181126;
+  --brand-tint: #2c2340;
+  --brand-line: #756489;
+  --brand-glow: #bfa3f650;
+  --border: #373042;
+  --border-subtle: #282333;
+  --glass-border: #e5ddfa37;
+  --glass-highlight: #faf4ff2b;
+  --glass-fill: linear-gradient(140deg, #4a425f70 0%, #211a30a1 48%, #100d18d1 100%);
+  --workspace-backdrop:
+    radial-gradient(ellipse 56rem 33rem at 89% 15rem, #302242ad, transparent 80%),
+    radial-gradient(ellipse 37rem 30rem at 9% 48rem, #281d40a8, transparent 82%),
+    var(--page);
+  --surface: #14111e;
+  --surface-raised: #1d1829;
+  --surface-inset: #0f0c17;
+  --surface-hover: #2b233a;
+  --line-strong: #625773;
+  --danger: #f87171;
+  --danger-bg: #30171a;
+  --amber: #fbbf24;
+  --amber-bg: #2d2212;
+  --control-radius: .75rem;
+  --control-height: 3.1rem;
+  --shadow-elevated: 0 20px 48px -12px rgba(0, 0, 0, 0.65), 0 0 32px -8px #d5bcff12;
+  --shadow-glow: 0 0 25px -5px var(--brand-glow);
+}
+
+body {
+  min-width: 280px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--workspace-backdrop);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface-inset);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 99rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--line-strong);
+}
+
+a, button, input, select { -webkit-tap-highlight-color: transparent; }
+button, input, select { font: inherit; }
+button:not(:disabled), select:not(:disabled) { cursor: pointer; }
+button:disabled, fieldset:disabled { opacity: .6; cursor: not-allowed; }
+:focus-visible { outline: 3px solid var(--brand-accent); outline-offset: 4px; }
+::selection { background: var(--brand-accent); color: var(--brand-contrast); }
+
+:lang(kn) .eyebrow, :lang(hi) .eyebrow, :lang(te) .eyebrow { letter-spacing: normal; }
+:lang(kn) h1, :lang(hi) h1, :lang(te) h1,
+:lang(kn) h2, :lang(hi) h2, :lang(te) h2 { letter-spacing: normal; line-height: 1.28; }
