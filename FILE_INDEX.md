@@ -1,0 +1,70 @@
+> **V4.1 addition:** Start with `TEAM_HANDOFF_SHARE_THIS_FIRST.md` and `docs/INSTALLATION_VERIFICATION_AND_PERMISSIONS.md`.
+
+# PauseGuard V4 All-Four Team Kit — Verified file index
+
+**61 Markdown files; 65 total files (including this index).**
+
+- `.agents/rules/pauseguard-safety.md`
+- `.agents/skills/pauseguard-role/SKILL.md`
+- `.agents/workflows/start-pauseguard-member.md`
+- `.gitignore`
+- `.vscode/extensions.json`
+- `AGENTS.md`
+- `README_START_HERE.md`
+- `docs/AI_COLLABORATION.md`
+- `docs/ALL_FOUR_INSTALLATION.md`
+- `docs/ALL_FOUR_SETUP_TRACKER.md`
+- `docs/API_CONTRACT_V2.md`
+- `docs/API_COST_PRIVACY_GUARDS.md`
+- `docs/APPROVED_GITHUB_REFERENCES.md`
+- `docs/ARCHITECTURE_V2.md`
+- `docs/BEGINNER_ZERO_TO_ADVANCED.md`
+- `docs/DECISIONS.md`
+- `docs/DEMO_VS_PRODUCTION.md`
+- `docs/EXPERIMENT_PLAN_AND_METRICS.md`
+- `docs/EXTENSION_PERMISSIONS_BY_MEMBER.md`
+- `docs/EXTERNAL_DOC_AND_RESEARCH_STATUS.md`
+- `docs/EXTERNAL_REFERENCE_LOCK.md`
+- `docs/GITHUB_AND_REPO_SETUP.md`
+- `docs/GIT_WORKFLOW.md`
+- `docs/GOOGLE_DOC_SCREENSHOTS_RESEARCH_STATUS.md`
+- `docs/IDE_SETUP_AND_PERMISSIONS.md`
+- `docs/INSTALL_OPENCODE_WINDOWS.md`
+- `docs/INTEGRATIONS_AND_REGULATION.md`
+- `docs/LOCAL_DEVELOPMENT_RUNBOOK.md`
+- `docs/MODEL_FALLBACK.md`
+- `docs/PAYMENT_SECURITY_TESTS.md`
+- `docs/PAYMENT_STATES_V2.md`
+- `docs/PHASES_AND_GATES.md`
+- `docs/PLUGIN_DECISION_MATRIX.md`
+- `docs/POLICY_MATRIX_V2.md`
+- `docs/PRD_V2.md`
+- `docs/PRIVACY_SECURITY.md`
+- `docs/PRODUCT_WORKFLOW.md`
+- `docs/PROGRESS.md`
+- `docs/PROVIDER_SETUP_PLAYBOOK.md`
+- `docs/REVIEW_PRIVACY_AUDIO.md`
+- `docs/TEAM_CHAT_SHARING.md`
+- `docs/TEAM_MEMBER_ONBOARDING.md`
+- `docs/TEAM_ROLES.md`
+- `docs/THIRD_PARTY_REPO_EVALUATION.md`
+- `docs/TROUBLESHOOTING_AND_RECOVERY.md`
+- `docs/UI_EXPERIENCE_SPEC.md`
+- `docs/VERIFIED_FREE_MODEL_MATRIX_2026-11-09.md`
+- `docs/setup/README.md`
+- `docs/setup/member-1-komal.md`
+- `docs/setup/member-2-adish.md`
+- `docs/setup/member-3-gowtham.md`
+- `docs/setup/member-4-jeevan.md`
+- `prompts/FIRST_SESSION_INSTALL_ALL_FOUR.md`
+- `prompts/GITHUB_REFERENCE_EVALUATOR.md`
+- `prompts/MEMBER_1_KOMAL.md`
+- `prompts/MEMBER_2_ADISH.md`
+- `prompts/MEMBER_3_GOWTHAM.md`
+- `prompts/MEMBER_4_JEEVAN.md`
+- `prompts/MODEL_SWITCH_CHECK.md`
+- `prompts/REVIEW_AND_HANDOFF.md`
+- `prompts/SESSION_COACH_BEGINNER.md`
+- `prompts/START_FOR_EVERY_AI.md`
+- `scripts/check_member_environment.ps1`
+- `scripts/fetch_reference.ps1`

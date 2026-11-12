@@ -1,0 +1,19 @@
+# External read-only reference checkouts
+.references/
+# Local secrets / auth credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local databases and Python caches
+*.sqlite3
+*.db
+__pycache__/
+.pytest_cache/
+.venv/
+# Frontend artifacts
+node_modules/
+dist/
+# Windows OS
+Thumbs.db
